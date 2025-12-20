@@ -43,7 +43,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Overview />
-      <div className=" flex flex-col gap-16 max-w-7xl mx-auto px-4 py-12">
+      <div className="container flex flex-col justify-center items-center gap-16">
         {productDetailData.map((product, idx) => (
           <ProductDetailsCard
             key={idx}

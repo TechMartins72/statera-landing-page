@@ -29,7 +29,7 @@ const Footer = () => {
             "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.1) 5%, rgba(0,0,0,0.3) 10%, rgba(0,0,0,0.5) 15%, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0.9) 25%, rgba(0,0,0,2.9) 40%,  rgba(0,0,0,2.9) 60% black 75%",
         }}
       />
-      <footer className="container relative z-10 flex justify-between items-center mb-12 py-8">
+      <footer className="container relative z-10 flex flex-col md:flex-row justify-between items-center mb-12 py-8 gap-4">
         <div className="flex gap-3 items-center justify-center">
           <Image
             src="/lucentlabs logo.png"
@@ -53,7 +53,7 @@ const Footer = () => {
               aria-label={social.label}
               target="_blank"
             >
-              <social.icon className="text-gray-400 hover:text-white transition-colors text-3xl" />
+              <social.icon className="text-gray-400 hover:text-white transition-colors text-2xl md:text-3xl" />
             </Link>
           ))}
         </div>

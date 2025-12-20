@@ -31,7 +31,7 @@ html {
 
 @layer utilities {
   .container {
-    @apply px-12 max-w-[1600px] mx-auto;
+    @apply px-12 max-w-[1600px] mx-auto py-16;
   }
   .text-linear-gradient {
   }
