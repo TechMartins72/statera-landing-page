@@ -8,28 +8,41 @@ const NAV_LINKS = [
 
 const Header = () => {
   return (
-    <div className="w-full h-20">
-      <header className="container w-full flex justify-between items-center p-6">
-        <div className="flex gap-6 items-center">
-          <Image src="/lucentlabs logo.png" alt="Logo" width={40} height={40} />
-          <Image
-            src="/lucentlabs.png"
-            alt="lucentlabs logo"
-            height={24}
-            width={196}
-          />
+    <div className="w-full py-2 bg-[#0a0a0a] fixed top-0 z-50 left-0">
+      <div className="container py-0!">
+        <div className="w-full flex justify-between items-center p-px! rounded-full bg-linear-to-r from-[#FF5151B5] via-[#CCC5C500] via-[#C9DEFB55] via-[#E9ECEF80] to-[#177BFDAB]">
+          <header className="container w-full flex justify-between items-center p-3! px-4! rounded-full bg-[#0a0a0a]">
+            <div className="flex gap-6 items-center">
+              <Image
+                src="/lucentlabs logo.png"
+                alt="Logo"
+                width={40}
+                height={40}
+                className="w-8 h-8 md:w-10 md:h-10"
+              />
+              <Image
+                src="/lucentlabs.png"
+                alt="lucentlabs logo"
+                height={24}
+                width={196}
+                className="h-4 w-32 md:h-6 md:w-49"
+              />
+            </div>
+
+            <ul className="hidden md:flex gap-4 lg:gap-8 *:cursor-pointer">
+              {NAV_LINKS.map((link) => (
+                <li key={link.id}>{link.label}</li>
+              ))}
+            </ul>
+
+            <div className="p-px bg-linear-to-r from-[#F80808] via-[#FFFFFF] to-[#2b1de8] rounded-full w-fit">
+              <button className="bg-linear-to-r from-[#050626] via-[#85110d] to-[#0a045a] text-white px-4 md:px-6 py-2 rounded-full cursor-pointer font-semibold">
+                Try Product
+              </button>
+            </div>
+          </header>
         </div>
-
-        <ul className="flex gap-8 *:cursor-pointer">
-          {NAV_LINKS.map((link) => (
-            <li key={link.id}>{link.label}</li>
-          ))}
-        </ul>
-
-        <button className="bg-linear-to-r from-[#0506264A] via-[#DB201982] to-[#1D75E861] text-white px-8 py-2 rounded-full cursor-pointer">
-          Try Product
-        </button>
-      </header>
+      </div>
     </div>
   );
 };

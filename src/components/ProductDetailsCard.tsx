@@ -18,7 +18,13 @@ const ProductDetailsCard = ({
       }`}
     >
       <div>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl mb-4 font-semibold">
+        <h1
+          className="text-3xl md:text-4xl lg:text-5xl mb-4 font-semibold bg-clip-text text-transparent"
+          style={{
+            backgroundImage:
+              "linear-gradient(to right, #5E78FA 0%, #D1B2E8 25%, #F0F2F4 50%, #EE6EE5 75%, #076DE2 100%)",
+          }}
+        >
           {name}
         </h1>
         <p className="text-md md:text-xl">{details}</p>
