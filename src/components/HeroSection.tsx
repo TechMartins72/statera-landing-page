@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="container absolute top-0 left-0 w-full h-fit flex justify-center items-center">
         <section className="w-full z-10">
           <div>
-            <h1 className="text-3xl text-center md:text-left md:text-5xl lg:text-7xl font-bold">
+            <h1 className="text-[1.6rem] text-center md:text-left md:text-5xl lg:text-7xl font-bold">
               <span
                 className="bg-clip-text text-transparent"
                 style={{

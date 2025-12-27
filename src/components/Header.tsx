@@ -36,7 +36,7 @@ const Header = () => {
             </ul>
 
             <div className="p-px bg-linear-to-r from-[#F80808] via-[#FFFFFF] to-[#2b1de8] rounded-full w-fit">
-              <button className="bg-linear-to-r from-[#050626] via-[#85110d] to-[#0a045a] text-white px-4 md:px-6 py-2 rounded-full cursor-pointer font-semibold">
+              <button className="bg-linear-to-r from-[#050626] via-[#85110d] to-[#0a045a] text-white px-4 py-p md:px-6 rounded-full cursor-pointer font-semibold md:text-md">
                 Try Product
               </button>
             </div>

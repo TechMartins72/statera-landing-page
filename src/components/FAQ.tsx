@@ -34,7 +34,7 @@ const FAQ = () => {
         <span className="py-2 px-10 tracking-widest text-2xl bg-white text-black font-semibold rounded-2xl">
           FAQs
         </span>
-        <p className="text-lg md:text-xl my-4">
+        <p className="text-lg md:text-xl my-4 text-center">
           These are our frequently asked questions
         </p>
       </div>
