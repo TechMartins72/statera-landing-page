@@ -12,21 +12,21 @@ const Header = () => {
       <div className="container py-0!">
         <div className="w-full flex justify-between items-center p-px! rounded-full bg-linear-to-r from-[#FF5151B5] via-[#CCC5C500] via-[#C9DEFB55] via-[#E9ECEF80] to-[#177BFDAB]">
           <header className="container w-full flex justify-between items-center p-3! px-4! rounded-full bg-[#0a0a0a]">
-            <div className="flex gap-6 items-center">
+            <div className="flex gap-6 items-center ml-4">
               <Image
-                src="/lucentlabs logo.png"
-                alt="Logo"
+                src="/stateralogo.png"
+                alt="statera logo"
                 width={40}
                 height={40}
                 className="w-8 h-8 md:w-10 md:h-10"
               />
-              <Image
+              {/* <Image
                 src="/lucentlabs.png"
                 alt="lucentlabs logo"
                 height={24}
                 width={196}
                 className="h-4 w-32 md:h-6 md:w-49"
-              />
+              /> */}
             </div>
 
             <ul className="hidden md:flex gap-4 lg:gap-8 *:cursor-pointer">

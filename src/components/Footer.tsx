@@ -32,17 +32,12 @@ const Footer = () => {
       <footer className="container relative z-10 flex flex-col md:flex-row justify-between items-center mb-12 py-8 gap-4">
         <div className="flex gap-3 items-center justify-center">
           <Image
-            src="/lucentlabs logo.png"
-            alt="lucentlabs"
+            src="/stateralogo.png"
+            alt="statera logo"
             height={40}
             width={40}
           />
-          <Image
-            src="/lucentlabs.png"
-            alt="lucentlabs logo"
-            height={24}
-            width={196}
-          />
+          {/* <Image src="/statera.png" alt="stateralogo" height={24} width={196} /> */}
         </div>
         <p>@2026 all right reserved</p>
         <div className="flex gap-4">
