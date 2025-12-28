@@ -40,7 +40,7 @@ export default function Home() {
         width={800}
         className="absolute -bottom-20 z-0 md:top-0 md:right-0 flex"
       />
-      <div className="absolute md:top-0 right-0 z-0 flex -bottom-55">
+      <div className="absolute md:top-0 right-0 z-0 flex -bottom-65">
         <Image
           src="/background.png"
           alt="background"

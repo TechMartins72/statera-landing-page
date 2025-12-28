@@ -2,7 +2,7 @@ import { MeetCard } from "./index";
 
 const HeroSection = () => {
   return (
-    <main className="flex justify-center items-center container relative top-14 md:top-22 min-h-screen">
+    <main className="h-[107vh] md:h-screen flex justify-center items-center container relative top-14 md:top-22">
       <div className="container absolute top-0 left-0 w-full h-fit flex justify-center items-center">
         <section className="w-full z-10">
           <div>
@@ -24,7 +24,7 @@ const HeroSection = () => {
           </div>
         </section>
 
-        <div className="absolute -bottom-75 md:right-0 md:-bottom-50 lg:-bottom-30 z-20">
+        <div className="absolute -bottom-82 md:right-0 md:-bottom-50 lg:-bottom-30 z-20">
           <img
             src="/futuristic.png"
             alt="futuristic-icon"
