@@ -32,7 +32,7 @@ const productDetailData = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-[#0a0a0a] text-[#ededed]">
       <Image
         src="/Ellipse.png"
         alt="ellipse"
