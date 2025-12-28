@@ -50,7 +50,7 @@ const MeetCard = () => {
                     </div>
                   </div>
                 ))}
-                <button className="text-xl md:mt-4 py-2 uppercase bg-white rounded-2xl text-black md:text-2xl font-bold px-2">
+                <button className="w-full text-lg md:mt-4 py-2 uppercase bg-white rounded-2xl text-black md:text-2xl font-bold px-2">
                   <h3>In One Ecosystem</h3>
                 </button>
               </div>

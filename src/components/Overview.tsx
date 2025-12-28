@@ -2,7 +2,7 @@ import { ProductCard } from "./index";
 
 const Overview = () => {
   return (
-    <section className="container mt-24 text-center flex flex-col justify-center items-center gap-4">
+    <section className="container mt-40 md:mt-24 text-center flex flex-col justify-center items-center gap-4">
       <h1
         className="bg-clip-text text-transparent text-4xl md:text-5xl lg:text-6xl font-semibold py-3"
         style={{
