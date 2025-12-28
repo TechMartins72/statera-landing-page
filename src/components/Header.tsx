@@ -18,7 +18,7 @@ const Header = () => {
                 alt="statera logo"
                 width={40}
                 height={40}
-                className="w-8 h-8 md:w-10 md:h-10"
+                className="w-8 h-8 md:w-10 md:h-10 cursor-pointer"
               />
               {/* <Image
                 src="/lucentlabs.png"
@@ -36,7 +36,7 @@ const Header = () => {
             </ul>
 
             <div className="p-px bg-linear-to-r from-[#F80808] via-[#FFFFFF] to-[#2b1de8] rounded-full w-fit">
-              <button className="bg-linear-to-r from-[#050626] via-[#85110d] to-[#0a045a] text-white px-4 py-p md:px-6 rounded-full cursor-pointer font-semibold md:text-md">
+              <button className="bg-linear-to-r from-[#050626] via-[#85110d] to-[#0a045a] text-white px-4 py-p md:py-2 md:px-6 rounded-full cursor-pointer font-semibold md:text-md">
                 Try Product
               </button>
             </div>
