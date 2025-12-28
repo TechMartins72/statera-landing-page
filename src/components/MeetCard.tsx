@@ -18,7 +18,7 @@ const subProduct = [
 
 const MeetCard = () => {
   return (
-    <div className="w-full lg:w-114 rounded-4xl p-1 bg-linear-to-b from-[#3490C9] to-[#FFFFFF] mt-18 relative mx-auto md:mx-0">
+    <div className="w-full max-w-114 lg:w-114 rounded-4xl p-1 bg-linear-to-b from-[#3490C9] to-[#FFFFFF] mt-18 relative mx-auto md:mx-0">
       <div className="w-full h-full rounded-4xl p-2 md:p-4 lg:p-8 bg-linear-to-r from-[#1d01b9] to-[#060124]">
         <div>
           <span className="py-2 px-6 md:px-10 tracking-widest text-xl md:text-2xl bg-white text-black font-semibold rounded-2xl absolute top-0 right-1/2 -translate-y-1/2 translate-x-1/2">
@@ -36,7 +36,7 @@ const MeetCard = () => {
                       key={idx}
                       className="w-full flex justify-between items-center gap-4 py-p md:py-2 px-4 rounded-4xl bg-linear-to-r from-[#000001] to-[#0F0067] md:px-6"
                     >
-                      <p className="text-xl md:text-2xl font-semibold">
+                      <p className="text-lg md:text-xl lg:text-2xl font-semibold">
                         {item.product}
                       </p>
                       <span>

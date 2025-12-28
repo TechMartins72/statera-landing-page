@@ -29,7 +29,7 @@ const Footer = () => {
             "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.1) 5%, rgba(0,0,0,0.3) 10%, rgba(0,0,0,0.5) 15%, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0.9) 25%, black 50%",
         }}
       />
-      <footer className="container relative z-10 flex flex-col md:flex-row justify-between items-center mb-12 py-8 gap-4">
+      <footer className="container relative z-10 flex flex-col md:flex-row justify-between items-center py-8 gap-4">
         <div className="flex gap-3 items-center justify-center">
           <Image
             src="/stateralogo.png"

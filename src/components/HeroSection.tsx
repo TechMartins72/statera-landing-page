@@ -45,7 +45,7 @@ const HeroSection = () => {
           <img
             src="/futuristic.png"
             alt="futuristic-icon"
-            className="w-110 h-110 md:w-150 md:h-150 lg:w-180 lg:h-180 xl:w-220 xl:h-220"
+            className="w-110 h-100 md:w-150 md:h-150 lg:w-180 lg:h-180 xl:w-220 xl:h-220"
           />
         </div>
       </div>

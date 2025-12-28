@@ -38,7 +38,7 @@ const FAQ = () => {
           These are our frequently asked questions
         </p>
       </div>
-      <div className="flex flex-col gap-2 w-full max-w-5xl mx-auto text-2xl md:text-3xl">
+      <div className="flex flex-col gap-2 w-full max-w-5xl mx-auto text-xl md:text-2xl lg:text-3xl">
         {questions.map((q, idx) => (
           <div
             key={idx}
