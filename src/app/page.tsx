@@ -32,40 +32,26 @@ const productDetailData = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#0a0a0a] text-[#ededed]">
-      <Image
-        src="/Ellipse.png"
-        alt="ellipse"
-        height={800}
-        width={800}
-        className="absolute -bottom-20 z-0 md:top-0 md:right-0 flex"
-      />
-      <div className="absolute md:top-0 right-0 z-0 flex -bottom-75">
-        <Image
-          src="/background.png"
-          alt="background"
-          width={750}
-          height={750}
-          className="background-fade"
-        />
+    <div className="relative flex flex-col bg-[#0a0a0a] text-[#ededed] overflow-hidden">
+      <div className="relative z-10">
+        <Header />
+        <HeroSection />
+        <Overview />
+        <div className="container flex flex-col justify-center items-center gap-16 pt-0!">
+          {productDetailData.map((product, idx) => (
+            <ProductDetailsCard
+              key={idx}
+              url={product.url}
+              name={product.name}
+              details={product.details}
+              index={idx}
+            />
+          ))}
+        </div>
+        <FAQ />
+        <ContactUs />
+        <Footer />
       </div>
-      <Header />
-      <HeroSection />
-      <Overview />
-      <div className="container flex flex-col justify-center items-center gap-16">
-        {productDetailData.map((product, idx) => (
-          <ProductDetailsCard
-            key={idx}
-            url={product.url}
-            name={product.name}
-            details={product.details}
-            index={idx}
-          />
-        ))}
-      </div>
-      <FAQ />
-      <ContactUs />
-      <Footer />
     </div>
   );
 }
