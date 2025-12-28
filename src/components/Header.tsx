@@ -9,7 +9,7 @@ const NAV_LINKS = [
 const Header = () => {
   return (
     <div className="w-full py-2 bg-[#0a0a0a] fixed top-0 z-50 left-0">
-      <div className="container p-0!">
+      <div className="container py-0!">
         <div className="w-full flex justify-between items-center p-px! rounded-full bg-linear-to-r from-[#FF5151B5] via-[#CCC5C500] via-[#C9DEFB55] via-[#E9ECEF80] to-[#177BFDAB]">
           <header className="container w-full flex justify-between items-center p-3! px-4! rounded-full bg-[#0a0a0a]">
             <div className="flex gap-6 items-center ml-4">

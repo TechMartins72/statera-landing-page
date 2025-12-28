@@ -3,13 +3,13 @@ import { MeetCard } from "./index";
 
 const HeroSection = () => {
   return (
-    <main className="flex justify-center items-center container relative md:top-12 pb-82 md:pb-50 lg:pb-30">
+    <main className="flex justify-center items-center container relative md:top-12 pb-82 md:pb-50 lg:pb-30 mt-16">
       <Image
         src="/Ellipse.png"
         alt="ellipse"
         height={800}
         width={800}
-        className="max-sm:w-[70%] absolute -bottom-40 z-0 md:top-0 right-0 pointer-events-none"
+        className="max-sm:w-[70%] absolute -bottom-50 z-0 md:top-0 right-0 pointer-events-none"
       />
       <div className="max-sm:w-[70%] absolute md:top-0 right-0 z-0 -bottom-65 pointer-events-none">
         <Image
@@ -20,7 +20,7 @@ const HeroSection = () => {
           className="background-fade"
         />
       </div>
-      <div className="container w-full h-fit flex justify-center items-center">
+      <div className="w-full h-fit flex justify-center items-center">
         <section className="w-full z-10">
           <div>
             <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl lg:text-7xl font-bold">
@@ -41,7 +41,7 @@ const HeroSection = () => {
           </div>
         </section>
 
-        <div className="absolute -bottom-60 md:right-0 md:-bottom-50 lg:-bottom-30 z-20">
+        <div className="absolute -bottom-80 md:right-0 md:-bottom-50 lg:-bottom-30 z-20">
           <img
             src="/futuristic.png"
             alt="futuristic-icon"
