@@ -8,12 +8,12 @@ const ContactUs = () => {
       </h2>
       <form
         action=""
-        className="flex justify-center items-center w-full rounded-2xl overflow-hidden bg-white "
+        className="flex justify-center items-center w-full rounded-2xl overflow-hidden bg-gray-100"
       >
         <input
           type="text"
           placeholder="Enter email"
-          className="flex-1 outline-none border-none py-3 px-4 md:px-6 text-black"
+          className="outline-none border-none p-4 md:px-6 text-black w-full"
         />
         <button className="w-16 bg-linear-to-r from-[#166AB9] via-[#A21F7F] to-[#F91A1A] py-3 md:py-4 cursor-pointer flex justify-center items-center">
           <IoIosSend className="font-extrabold text-4xl" />
