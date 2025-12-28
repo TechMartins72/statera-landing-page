@@ -2,7 +2,7 @@ import { MeetCard } from "./index";
 
 const HeroSection = () => {
   return (
-    <main className="h-[107vh] md:h-screen flex justify-center items-center container relative top-14 md:top-22">
+    <main className="h-[115vh] md:h-screen flex justify-center items-center container relative top-14 md:top-22">
       <div className="container absolute top-0 left-0 w-full h-fit flex justify-center items-center">
         <section className="w-full z-10">
           <div>

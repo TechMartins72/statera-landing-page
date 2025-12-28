@@ -32,7 +32,7 @@ const productDetailData = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen dark:bg-black">
+    <div className="flex flex-col min-h-screen">
       <Image
         src="/Ellipse.png"
         alt="ellipse"
@@ -40,7 +40,7 @@ export default function Home() {
         width={800}
         className="absolute -bottom-20 z-0 md:top-0 md:right-0 flex"
       />
-      <div className="absolute md:top-0 right-0 z-0 flex -bottom-65">
+      <div className="absolute md:top-0 right-0 z-0 flex -bottom-75">
         <Image
           src="/background.png"
           alt="background"
