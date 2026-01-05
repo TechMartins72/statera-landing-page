@@ -37,7 +37,13 @@ const Footer = () => {
             height={40}
             width={40}
           />
-          {/* <Image src="/statera.png" alt="stateralogo" height={24} width={196} /> */}
+          <Image
+            src="/name.png"
+            alt="statera"
+            height={24}
+            width={196}
+            className="h-4 w-32 md:h-6 md:w-49"
+          />
         </div>
         <p>@2026 all right reserved</p>
         <div className="flex gap-4">

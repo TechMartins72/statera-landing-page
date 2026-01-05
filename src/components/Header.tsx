@@ -21,7 +21,7 @@ const Header = () => {
                 className="w-8 h-8 md:w-10 md:h-10 cursor-pointer"
               />
               <Image
-                src="/stateraname.png"
+                src="/name.png"
                 alt="statera"
                 height={24}
                 width={196}
