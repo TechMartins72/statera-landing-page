@@ -32,7 +32,9 @@ const ProductDetailsCard = ({
       <img
         src={url}
         alt={name}
-        className="w-48 md:w-auto md:-translate-y-10 md:scale-70 lg:scale-100"
+        className={`w-48 md:w-auto md:-translate-y-10 ${
+          index === 0 ? "scale-50 md:scale-60" : "md:scale-70 lg:scale-100"
+        }`}
       />
     </div>
   );

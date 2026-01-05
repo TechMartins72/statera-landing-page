@@ -3,7 +3,7 @@ import React from "react";
 const data = [
   {
     name: "Stable Coin",
-    url: "/stablecoinicon.png",
+    url: "/statera.png",
     alt: "/stablecoin",
   },
   {
@@ -26,10 +26,16 @@ const ProductCard = () => {
           key={idx}
           className="bg-white h-60 w-60 rounded-4xl text-black font-semibold text-2xl relative"
         >
-          <div className="absolute -translate-y-22">
+          <div
+            className={`absolute -translate-y-22 ${
+              idx === 0 && "scale-75 md:scale-80"
+            }`}
+          >
             <img src={product.url} alt={product.alt} />
-            <h2>{product.name}</h2>
           </div>
+          <h2 className="absolute bottom-8 -translate-x-1/2 left-1/2 text-nowrap">
+            {product.name}
+          </h2>
         </div>
       ))}
     </section>

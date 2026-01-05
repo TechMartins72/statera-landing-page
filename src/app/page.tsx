@@ -11,7 +11,7 @@ import {
 
 const productDetailData = [
   {
-    url: "/stablecoinicon.png",
+    url: "/statera.png",
     name: "The Statera Stablecoin",
     details:
       "Meet sUSD — Stability for the Midnight Economy. sUSD is the overcollateralized stablecoin that powers the Statera ecosystem. Minted through secure deposits and protected by privacy‑preserving blockchain architecture, sUSD is your gateway to staking, launchpad participation, and cross‑protocol liquidity.",

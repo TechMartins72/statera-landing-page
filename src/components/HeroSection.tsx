@@ -3,7 +3,7 @@ import { MeetCard } from "./index";
 
 const HeroSection = () => {
   return (
-    <main className="flex justify-center items-center container relative md:top-12 pb-82 md:pb-50 lg:pb-30 mt-16">
+    <main className="flex justify-center items-center container relative pb-82 md:pb-50 lg:pb-30 mt-24">
       <Image
         src="/Ellipse.png"
         alt="ellipse"

@@ -4,7 +4,7 @@ import React from "react";
 const subProduct = [
   {
     product: "Stable Coin",
-    icon: "/stablecoinicon.png",
+    icon: "/statera.png",
   },
   {
     product: "Launchpad",
