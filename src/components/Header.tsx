@@ -25,7 +25,7 @@ const Header = () => {
                 alt="statera"
                 height={24}
                 width={196}
-                className="h-4 w-32 md:h-6 md:w-49"
+                className="hidden md:flex h-4 w-32 md:h-6 md:w-49"
               />
             </div>
 
